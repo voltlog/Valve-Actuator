@@ -3,7 +3,7 @@ I designed this 10 channel valve actuator board to be able to control up to 10 e
 
 To flash the ESP32 you can use a VoltLink usb/serial converter or you can use your own usb-serial converter module through the on-board JST-SH 1.0mm pitch 6 pin connector. After loading the initial firmware, you can update the firmware via OTA. 
 
-If you would like to order one of these boards ready assembled, check out my [Tindie store](https://www.tindie.com/stores/voltlog/).
+If you would like to order one of these boards ready assembled, check out my [Tindie store](https://www.tindie.com/products/voltlog/tasmota-esp32-floor-heating-valve-controller/).
 
 ### Known issues in revA
 #1 Starting with Tasmota releases newer than v9.5.0 Tasmota started using IO16, IO17 to connect to external PSRAM and due to the way Tasmota implements this, it continously tries to talk to the external PSRAM, without considering the type of hardware, whether it contains any PSRAM or not. As a consequence, IO16, IO17 will show constant SPI traffic so IT IS RECOMMENDED YOU FLASH REV.A HW WITH TASMOTA V9.5.0 MAX!

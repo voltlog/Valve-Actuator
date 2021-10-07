@@ -12,4 +12,4 @@ If you would like to order one of these boards ready assembled, check out my [Ti
 
 *both of these issues will be addressed in revB.
 
-![Image of the assembled PCB](valve-actuator.jpg)
+![Image of the assembled PCB](esp32-tasmota-zone-valve-controller-2.jpg)

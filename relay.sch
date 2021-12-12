@@ -1346,6 +1346,6 @@ Wire Wire Line
 Connection ~ 9500 2700
 Wire Wire Line
 	9500 2700 9500 2950
-Text Notes 700  6650 0    50   ~ 0
+Text Notes 6700 6300 0    59   ~ 0
 WARNING: TRIACS by their nature have structural leakage current in the off state, \nwhich is why a small amount of current flows through the load. The snubber circuit \nalso contributes to that effect and ads it's own leakage current so we end up with \naproximately 700uA at each output. When a load like a resistive thermostat valve is \nconnected, the voltage at the output will drop to about 1-2V in the off state but if you\n have no load connected, there will be 240V present on the output even with the triac\n being off.
 $EndSCHEMATC

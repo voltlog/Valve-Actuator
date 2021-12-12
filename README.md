@@ -6,10 +6,20 @@ To flash the ESP32 you can use a VoltLink usb/serial converter or you can use yo
 If you would like to order one of these boards ready assembled, check out my [Tindie store](https://www.tindie.com/products/voltlog/tasmota-esp32-floor-heating-valve-controller/).
 
 ## Tasmota template
-Use this template to configure tasmota for this board `{"NAME":"Voltlog Valve Actuator revB","GPIO":[0,3200,288,3232,0,0,0,0,0,228,229,227,0,0,226,225,0,640,608,224,0,232,231,230,0,0,0,0,233,32,0,0,0,0,0,0],"FLAG":0,"BASE":1}`
+Use this template to configure tasmota for this board `{"NAME":"Voltlog Valve Actuator revC","GPIO":[0,3200,288,3232,0,0,0,0,0,228,229,227,0,0,226,225,0,640,608,224,0,232,231,230,0,0,0,0,233,32,0,0,0,0,0,0],"FLAG":0,"BASE":1}`
 
 ## WARNING
 This board has high-voltage AC present which may cause severe personal injury or death if not handled with care. If you are in doubt, please ask for a profesional to install the system for you.
+
+## Changelog revC
+- Optimized current limitting resistor networks to share load for improved power dissipation.
+- Increased R2 value for lower power dissipation.
+## Changelog revB
+- Fixed incorrect labeling on the mains connector
+- Fixed GPIO conflicts with Tasmota by reassigning.
+- Switched to a 3V3 dc-dc converter and removed the LDO
+- Switched to a surface-mount triac.
+- Optimized ESP32 pcb layout.
 
 
 ![Image of the assembled PCB](esp32-tasmota-zone-valve-controller-2.jpg)

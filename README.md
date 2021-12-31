@@ -22,4 +22,4 @@ This board has high-voltage AC present which may cause severe personal injury or
 - Optimized ESP32 pcb layout.
 
 
-![Image of the assembled PCB](esp32-tasmota-zone-valve-controller-2.jpg)
+![Image of the assembled PCB](https://www.voltlog.com/pub/controller-features-revC.jpg)

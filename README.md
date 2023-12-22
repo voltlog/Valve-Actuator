@@ -8,6 +8,9 @@ If you would like to order one of these boards ready assembled, check out my [Ti
 ## Tasmota template
 Use this template to configure tasmota for this board `{"NAME":"Voltlog Valve Actuator revC","GPIO":[0,3200,288,3232,0,0,0,0,0,228,229,227,0,0,226,225,0,640,608,224,0,232,231,230,0,0,0,0,233,32,0,0,0,0,0,0],"FLAG":0,"BASE":1}`
 
+## Quick Start Guide
+Make sure you check out the [Quick Start Guide](https://github.com/voltlog/Valve-Actuator/blob/main/Quick%20Start%20Guide.pdf) hosted in this repository in PDF format.
+
 ## WARNING
 This board has high-voltage AC present which may cause severe personal injury or death if not handled with care. If you are in doubt, please ask for a profesional to install the system for you.
 
@@ -22,4 +25,4 @@ This board has high-voltage AC present which may cause severe personal injury or
 - Optimized ESP32 pcb layout.
 
 
-![Image of the assembled PCB](esp32-tasmota-zone-valve-controller-2.jpg)
+![Image of the assembled PCB](https://www.voltlog.com/pub/controller-features-revC.jpg)

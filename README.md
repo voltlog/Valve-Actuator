@@ -13,7 +13,7 @@ If you would like to order one of these boards ready assembled, check out my [Ti
 ## WARNING
 This board has high-voltage AC present which may cause severe personal injury or death if not handled with care. If you are in doubt, please ask for a profesional to install the system for you.
 
-## Changelog revE
+## Changelog revD
 - Added support for powering valves with separate voltage input.
 - Switched multiple components to SMD variant for DFM purposes.
 - Switched to using JST SH connector for expansion GPIO.
